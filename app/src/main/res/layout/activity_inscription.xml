@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Inscription">
+
+    <LinearLayout
+        android:layout_width="383dp"
+        android:layout_height="270dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="367dp"
+            android:layout_height="262dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logonoe" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="392dp"
+        android:layout_height="272dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="280dp">
+
+
+        <RelativeLayout
+            android:layout_width="390dp"
+            android:layout_height="270dp"
+            >
+
+            <TextView
+                android:id="@+id/refuge_id"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="100dp"
+                android:background="@color/gray"
+                android:hint="Refuge"
+                android:shadowRadius="@integer/material_motion_duration_medium_1" />
+
+            <TextView
+                android:id="@+id/rna_id"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:background="@color/gray"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="55dp"
+                android:hint="Code RNA" />
+
+            <TextView
+                android:id="@+id/mail_id"
+                android:layout_width="200dp"
+                android:background="@color/gray"
+                android:layout_height="45dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="110dp"
+                android:hint="Mail" />
+
+            <TextView
+                android:id="@+id/mdp_id"
+                android:layout_width="200dp"
+                android:background="@color/gray"
+                android:layout_height="45dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="165dp"
+                android:hint="Mot De Passe" />
+
+            <TextView
+                android:id="@+id/Rmdp_id"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:background="@color/gray"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="220dp"
+                android:hint="Confirmer Mot De Passe" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="520dp">
+
+        <ImageView
+            android:id="@+id/btn_inscription"
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:rotation="22.5"
+            android:src="@drawable/btn_inscription" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

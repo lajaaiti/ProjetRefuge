@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="430dp"
+       android:layout_marginLeft="45dp"
+        android:src="@drawable/logonoe"/>
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="220dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="450dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_connexion"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:rotation="-22.5"
+                android:src="@drawable/btn_connexion" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btn_inscription"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="240dp">
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="5dp"
+                android:rotation="22.5"
+                android:src="@drawable/btn_inscription" />
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

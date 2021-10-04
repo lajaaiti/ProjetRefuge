@@ -32,50 +32,50 @@
             android:layout_height="270dp"
             >
 
-            <TextView
-                android:id="@+id/refuge_id"
+            <EditText
+                android:id="@+id/refuge_inscription"
                 android:layout_width="200dp"
                 android:layout_height="45dp"
                 android:layout_marginLeft="100dp"
                 android:background="@color/gray"
-                android:hint="Refuge"
+                android:hint="Nom du refuge"
                 android:shadowRadius="@integer/material_motion_duration_medium_1" />
 
-            <TextView
-                android:id="@+id/rna_id"
+            <EditText
+                android:id="@+id/rna_inscription"
                 android:layout_width="200dp"
                 android:layout_height="45dp"
-                android:background="@color/gray"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="55dp"
+                android:background="@color/gray"
                 android:hint="Code RNA" />
 
-            <TextView
-                android:id="@+id/mail_id"
+            <EditText
+                android:id="@+id/mail_inscription"
                 android:layout_width="200dp"
-                android:background="@color/gray"
                 android:layout_height="45dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="110dp"
+                android:background="@color/gray"
                 android:hint="Mail" />
 
-            <TextView
-                android:id="@+id/mdp_id"
+            <EditText
+                android:id="@+id/password_inscription"
                 android:layout_width="200dp"
-                android:background="@color/gray"
                 android:layout_height="45dp"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="165dp"
+                android:background="@color/gray"
                 android:hint="Mot De Passe" />
 
-            <TextView
-                android:id="@+id/Rmdp_id"
+            <EditText
+                android:id="@+id/confirmez_inscription"
                 android:layout_width="200dp"
                 android:layout_height="45dp"
-                android:background="@color/gray"
                 android:layout_marginLeft="100dp"
                 android:layout_marginTop="220dp"
-                android:hint="Confirmer Mot De Passe" />
+                android:background="@color/gray"
+                android:hint="Confirmez" />
 
 
         </RelativeLayout>

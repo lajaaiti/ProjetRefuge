@@ -40,12 +40,14 @@
                 android:hint="Nom du refuge"
                 android:shadowRadius="@integer/material_motion_duration_medium_1" />
 
-           <TextView
-               android:id="@+id/textview1"
-               android:layout_width="150dp"
-               android:layout_height="35dp"
-               android:layout_marginTop="45dp"
-               android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/error_refuge_inscription"
+                android:layout_width="150dp"
+                android:layout_height="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#FF5722"
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/rna_inscription"
@@ -55,12 +57,14 @@
                 android:layout_marginTop="75dp"
                 android:background="@color/gray"
                 android:hint="Code RNA" />
+
             <TextView
-                android:id="@+id/textview2"
+                android:id="@+id/error_rna_inscription"
                 android:layout_width="150dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="110dp"
-                android:layout_marginLeft="20dp"/>
+                android:layout_height="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="115dp"
+                android:textColor="#FF5722" />
 
             <EditText
                 android:id="@+id/mail_inscription"
@@ -70,12 +74,14 @@
                 android:layout_marginTop="150dp"
                 android:background="@color/gray"
                 android:hint="Mail" />
+
             <TextView
-                android:id="@+id/textview3"
+                android:id="@+id/error_mail_inscription"
                 android:layout_width="150dp"
-                android:layout_height="35dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="20dp"
                 android:layout_marginTop="190dp"
-                android:layout_marginLeft="20dp"/>
+                android:textColor="#FF5722" />
 
 
             <EditText
@@ -83,14 +89,18 @@
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="220dp"
+                android:layout_marginTop="75dp"
                 android:background="@color/gray"
-                android:hint="Mot De Passe" />
+                android:hint="Mot De Passe"
+                android:inputType="textPassword" />
+
             <TextView
-                android:id="@+id/textview4"
+                android:id="@+id/error_password_inscription"
                 android:layout_width="150dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="40dp"
-                android:layout_marginLeft="220dp"/>
+                android:layout_height="15dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="115dp"
+                android:textColor="#FF5722" />
 
 
             <EditText
@@ -98,15 +108,16 @@
                 android:layout_width="150dp"
                 android:layout_height="40dp"
                 android:layout_marginLeft="220dp"
-                android:layout_marginTop="75dp"
                 android:background="@color/gray"
                 android:hint="telephone" />
+
             <TextView
-                android:id="@+id/textview5"
+                android:id="@+id/error_telephone_inscription"
                 android:layout_width="150dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="115dp"
-                android:layout_marginLeft="220dp"/>
+                android:layout_height="15dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="40dp"
+                android:textColor="#FF5722" />
 
             <EditText
                 android:id="@+id/confirmez_inscription"
@@ -115,13 +126,16 @@
                 android:layout_marginLeft="220dp"
                 android:layout_marginTop="150dp"
                 android:background="@color/gray"
-                android:hint="Confirmez" />
+                android:hint="Confirmez"
+                android:inputType="textPassword" />
+
             <TextView
-                android:id="@+id/textview6"
+                android:id="@+id/error_confirm_inscription"
                 android:layout_width="150dp"
-                android:layout_height="35dp"
+                android:layout_height="15dp"
+                android:layout_marginLeft="220dp"
                 android:layout_marginTop="190dp"
-                android:layout_marginLeft="220dp"/>
+                android:textColor="#FF5722" />
 
 
         </RelativeLayout>
@@ -145,6 +159,7 @@
             android:src="@drawable/btn_inscription" />
 
     </LinearLayout>
+
 
 
 </RelativeLayout>

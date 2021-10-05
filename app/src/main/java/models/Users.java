@@ -7,8 +7,9 @@ public class Users {
     private String id_refuge;
     private String nra_code;
     private String mail;
+    private String telephone;
     private String password;
-    private String confirmez;
+    private String confirm;
 
     public Users(){}
 
@@ -60,12 +61,20 @@ public class Users {
         this.password = password;
     }
 
-    public String getConfirmez() {
-        return confirmez;
+    public String getTelephone() {
+        return telephone;
     }
 
-    public void setConfirmez(String confirmez) {
-        this.confirmez = confirmez;
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+
+    public String getConfirm() {
+        return confirm;
+    }
+
+    public void setConfirm(String confirm) {
+        this.confirm = confirm;
     }
 
     @Override
@@ -74,9 +83,11 @@ public class Users {
                 "id=" + id +
                 ", action='" + action + '\'' +
                 ", id_refuge='" + id_refuge + '\'' +
-                ", nra_code=" + nra_code +
+                ", nra_code='" + nra_code + '\'' +
                 ", mail='" + mail + '\'' +
+                ", telephone=" + telephone +
                 ", password='" + password + '\'' +
+                ", confirmez='" + confirm + '\'' +
                 '}';
     }
 }

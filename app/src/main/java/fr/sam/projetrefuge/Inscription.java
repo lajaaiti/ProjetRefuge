@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -28,8 +29,6 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import models.Users;
 import utils.CheckFields;
@@ -39,8 +38,9 @@ public class Inscription extends AppCompatActivity {
 
     //déclaration des 'EditText' qui vont servir de passerelle pour le bindage.
 
-    private EditText refuge_inscription, rna_inscription, mail_inscription, password_inscription, confrimez_inscription;
+    private EditText refuge_inscription, rna_inscription, mail_inscription, password_inscription,telephone_inscription, confrimez_inscription;
     private ImageView btn_inscription;
+    private TextView error_refuge_inscription, error_nra_inscription, error_mail_inscription, error_password_inscription, error_telephone_inscription, error_confirm_inscription;
 
 
     @Override
@@ -57,8 +57,18 @@ public class Inscription extends AppCompatActivity {
         rna_inscription = (EditText) findViewById(R.id.rna_inscription);
         mail_inscription = (EditText) findViewById(R.id.mail_inscription);
         password_inscription = (EditText) findViewById(R.id.password_inscription);
+        telephone_inscription = (EditText) findViewById(R.id.telephone_inscription);
         confrimez_inscription = (EditText) findViewById(R.id.confirmez_inscription);
+
+
         btn_inscription = (ImageView) findViewById(R.id.btn_inscription);
+
+        error_refuge_inscription = (TextView) findViewById(R.id.error_refuge_inscription);
+        error_nra_inscription = (TextView) findViewById(R.id.error_rna_inscription);
+        error_mail_inscription = (TextView) findViewById(R.id.error_mail_inscription);
+        error_password_inscription = (TextView) findViewById(R.id.error_password_inscription);
+        error_telephone_inscription = (TextView) findViewById(R.id.error_telephone_inscription);
+        error_confirm_inscription = (TextView) findViewById(R.id.error_confirm_inscription);
 
         // placement d'un écpiteur d'événements sur l'imageView
 
@@ -69,10 +79,6 @@ public class Inscription extends AppCompatActivity {
 
                 Users subs = new Users();
 
-                // contrôle de la présence de saisi, et l'ajout de regex qui limite à a-A z-Z et trait d'union '-'
-                String state_nom = CheckFields.nom_refuge_inscription(subs);
-                // je set le label text avec le msg de retour de la méthode
-
                 // affectation des valeurs aux attributs de l'objet.
                 // l'attribut action est nécessaire lors de l'appel dans le backend. Il me permet de faire du routage.
                 subs.setAction("register");
@@ -81,9 +87,28 @@ public class Inscription extends AppCompatActivity {
                 subs.setId_refuge(refuge_inscription.getText().toString());
                 subs.setMail(mail_inscription.getText().toString());
                 subs.setPassword(password_inscription.getText().toString());
-                subs.setConfirmez(confrimez_inscription.getText().toString());
+                subs.setTelephone(telephone_inscription.getText().toString());
+                subs.setConfirm(confrimez_inscription.getText().toString());
 
-                volleyPost(subs);
+                // Appel aux différentes  méthode pour contrôler la validaités des champs saisis
+                String state_refuge = CheckFields.nom_refuge_inscription(subs);
+                error_refuge_inscription.setText(state_refuge);
+                String state_rna = CheckFields.rna_refuge_inscription(subs);
+                error_nra_inscription.setText(state_rna);
+                String state_mail = CheckFields.mail_refuge_inscription(subs);
+                error_mail_inscription.setText(state_mail);
+                String state_password = CheckFields.password_refuge_inscription(subs);
+                error_password_inscription.setText(state_password);
+                String state_telephone = CheckFields.telephone_refuge_inscription(subs);
+                error_telephone_inscription.setText(state_telephone);
+                String state_confirm = CheckFields.confirm_refuge_inscription(subs);
+                error_confirm_inscription.setText(state_confirm);
+
+
+
+                if(state_refuge.equals("") && state_rna.equals("") && state_mail.equals("") && state_password.equals("") && state_telephone.equals("") && state_confirm.equals("")){
+                    volleyPost(subs);
+                }
             }
 
 
@@ -93,7 +118,7 @@ public class Inscription extends AppCompatActivity {
 
                 // postUrl qui reçois l'adresse du serveur et le nom du script à appeler.
                 //String postUrl = "https://192.168.43.244/testing/write.php";// connexion a xampp en local
-                String postUrl = "https://192.168.43.22/API/access.php";// connexion a xampp en local
+                String postUrl = "https://192.168.43.244/testing/refugeandro.php";// connexion a xampp en local
                 RequestQueue requestQueue = Volley.newRequestQueue(Inscription.this);
                 // créer les paires clé valeur à stocker dans l'objet json.
                 // attention, j'ai créé une paire "action : "register" qui servira au script PHP pour router la demande, par exemple register->insert,
@@ -104,6 +129,7 @@ public class Inscription extends AppCompatActivity {
                     postData.put("id_refuge", subs.getId_refuge());
                     postData.put("nra_code", subs.getNra_code());
                     postData.put("mail", subs.getMail());
+                    postData.put("telephone", subs.getTelephone());
                     postData.put("password", subs.getPassword());
 
 

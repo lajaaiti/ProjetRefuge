@@ -74,7 +74,7 @@ public class CheckFields {
         if(password.isEmpty()){
             msg_confirm = "Confirmez le mot de passe.";
         }else if(!subs.getPassword().equals(subs.getConfirm())){
-            msg_confirm = ("Ne correspond pas.");
+            msg_confirm = ("Les mots de passe ne correspondent pas.");
         }
         return msg_confirm;
     }

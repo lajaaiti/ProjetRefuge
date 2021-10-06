@@ -75,8 +75,8 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginTop="180dp"
                 android:background="@color/gray"
-                android:hint="Mot De Passe"
                 android:ems="10"
+                android:hint="Confirmer Mot De Passe"
                 android:inputType="textPassword" />
             <TextView
                 android:id="@+id/error_confirmation_password_connexion"

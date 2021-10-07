@@ -81,7 +81,7 @@
             android:layout_width="200dp"
             android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/btn"
             android:text="Modifier"
             android:textColor="@color/white"

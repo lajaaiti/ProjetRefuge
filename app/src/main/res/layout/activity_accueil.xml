@@ -4,7 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/imgback"
+    android:background="@drawable/imgfond"
     tools:context=".Accueil">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/btn_noe_accueil"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="140dp"
+            android:src="@drawable/btn_noe" />
+
+        <ImageView
+            android:id="@+id/btn_profil_accueil"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="52dp"
+            android:src="@drawable/btn_profil" />
+
+        <ImageView
+            android:id="@+id/btn_penssionnaires_accueil"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/btn_pensionnaires" />
+
+        <ImageView
+            android:id="@+id/btn_enclos_accueil"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="225dp"
+            android:layout_marginTop="75dp"
+            android:src="@drawable/btn_enclos" />
+
+        <ImageView
+            android:id="@+id/btn_contact_accueil"
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/btn_contact" />
+
+
+    </RelativeLayout>
 
 </RelativeLayout>

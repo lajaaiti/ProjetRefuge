@@ -3,12 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/btn.xml" value="0.1828125" />
+        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/champtext.xml" value="0.1828125" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/image.xml" value="0.1828125" />
-        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_accueil.xml" value="0.16666666666666666" />
+        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_accueil.xml" value="0.22" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_connexion.xml" value="0.16666666666666666" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_inscription.xml" value="0.22" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_mot_de_pass_oublier.xml" value="0.14666666666666667" />
+        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_profil.xml" value="0.16666666666666666" />
         <entry key="..\:/projetAndroid/ProjetRefuge/app/src/main/res/layout/activity_inscription.xml" value="0.5" />
       </map>
     </option>

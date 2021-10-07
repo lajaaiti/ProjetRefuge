@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondprofil2"
+    tools:context=".Profil">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/logonoe"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_refuge_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Refuge: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_rna_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Code RNA: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_mail_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Mail: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txt_telephone_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Téléphone: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/txt_ancien_mdp_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Ancien mot de passe: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/txt_nouveau_mdp_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Nouveau mot de passe: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/txt_confirmer_mdp_profil_bis"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:gravity=""
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/champtext"
+            android:fontFamily="sans-serif-light"
+            android:text="Confirmez votre mot de passe: "
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btn_modifier_profil_bis"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn"
+            android:text="Modifier"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

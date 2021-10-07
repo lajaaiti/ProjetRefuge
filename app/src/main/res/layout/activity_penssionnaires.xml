@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgdog"
+    tools:context=".Penssionnaires">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:src="@drawable/logonoe"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_ajou_penssionnaire"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:src="@drawable/btn_pensionnaires"/>
+
+        <ImageView
+            android:id="@+id/btn_liste_pensionnaires"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="550dp"
+            android:src="@drawable/btn_pensionnaires"/>
+
+        <ImageView
+            android:id="@+id/btn_cam_pensionnaires"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="550dp"
+            android:src="@drawable/btn_pensionnaires"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -151,7 +151,7 @@
         android:layout_marginTop="570dp">
 
         <ImageView
-            android:id="@+id/btn_inscription"
+            android:id="@+id/btn_inscription_inscription"
             android:layout_width="100dp"
             android:layout_height="80dp"
             android:layout_marginTop="5dp"

@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        connexion = (CardView) findViewById(R.id.btn_connexion);
+        connexion = (CardView) findViewById(R.id.btn_connexion_main);
 
-        inscription = (CardView) findViewById(R.id.btn_inscription);
+        inscription = (CardView) findViewById(R.id.btn_inscription_main);
 
         inscription.setOnClickListener(new View.OnClickListener() {
             @Override

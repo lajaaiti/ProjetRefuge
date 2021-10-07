@@ -100,13 +100,13 @@
         android:layout_marginTop="540dp">
 
         <ImageView
-            android:id="@+id/btn_inscription"
+            android:id="@+id/btn_valider_oublie"
             android:layout_width="150dp"
             android:layout_height="120dp"
             android:layout_gravity="center"
             android:layout_marginLeft="215dp"
             android:rotation="-22.5"
-            android:src="@drawable/btn_connexion" />
+            android:src="@drawable/btn_valider" />
 
     </LinearLayout>
 

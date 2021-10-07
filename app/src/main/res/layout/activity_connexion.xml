@@ -40,8 +40,8 @@
                 android:layout_marginTop="50dp"
                 android:background="@color/gray"
                 android:ems="10"
-                android:inputType="textPersonName"
-               android:hint="Mail"/>
+                android:hint="Mail"
+                android:inputType="textPersonName" />
             <TextView
                 android:id="@+id/error_mail_connexion"
                 android:layout_width="250dp"
@@ -57,8 +57,8 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginTop="115dp"
                 android:background="@color/gray"
-                android:hint="Mot De Passe"
                 android:ems="10"
+                android:hint="Mot De Passe"
                 android:inputType="textPassword" />
             <TextView
                 android:id="@+id/error_password_connexion"
@@ -90,7 +90,7 @@
         android:layout_marginTop="520dp">
 
         <ImageView
-            android:id="@+id/btn_inscription"
+            android:id="@+id/btn_connexion_connexion"
             android:layout_width="150dp"
             android:layout_height="120dp"
             android:layout_gravity="center"

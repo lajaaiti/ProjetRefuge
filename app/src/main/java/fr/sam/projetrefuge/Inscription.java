@@ -61,7 +61,7 @@ public class Inscription extends AppCompatActivity {
         confrimez_inscription = (EditText) findViewById(R.id.confirmez_inscription);
 
 
-        btn_inscription = (ImageView) findViewById(R.id.btn_inscription);
+        btn_inscription = (ImageView) findViewById(R.id.btn_inscription_inscription);
 
         error_refuge_inscription = (TextView) findViewById(R.id.error_refuge_inscription);
         error_nra_inscription = (TextView) findViewById(R.id.error_rna_inscription);

@@ -23,22 +23,22 @@ public class Penssionnaires extends AppCompatActivity {
         ajouter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(Penssionnaires.this, Ajouter_pensionnaires.class);
-                startActivity(intent);
+//                Intent intent =new Intent(Penssionnaires.this, Ajouter_pensionnaires.class);
+//                startActivity(intent);
             }
         });
         liste_toutous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(Penssionnaires.this, Liste_pensionnaires.class);
-                startActivity(intent);
+//                Intent intent =new Intent(Penssionnaires.this, Liste_pensionnaires.class);
+//                startActivity(intent);
             }
         });
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(Penssionnaires.this, Camera_pensionnaires.class);
-                startActivity(intent);
+//                Intent intent =new Intent(Penssionnaires.this, Camera_pensionnaires.class);
+//                startActivity(intent);
             }
         });
 

@@ -7,12 +7,21 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo_round"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetRefuge"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".Contacts"
+            android:exported="true" />
+        <activity
+            android:name=".Enclos"
+            android:exported="true" />
+        <activity
+            android:name=".Camera"
+            android:exported="true" />
         <activity
             android:name=".Liste_pensionnaires"
             android:exported="true" />

@@ -1,8 +1,7 @@
 package fr.sam.projetrefuge;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.graphics.Camera;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -37,8 +36,8 @@ public class Penssionnaires extends AppCompatActivity {
         camera.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-             /*   Intent intent =new Intent(Penssionnaires.this, Camera_pensionnaires.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(getApplicationContext(), Camera.class);
+                startActivity(intent);
             }
         });
 

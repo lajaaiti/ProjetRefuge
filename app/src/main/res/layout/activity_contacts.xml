@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imgfondcontact"
+    tools:context=".Contacts">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logonoe"/>
+        <ImageView
+            android:id="@+id/btn_telephone"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="255dp"
+            android:src="@drawable/btn_telephone"/>
+        <ImageView
+            android:id="@+id/btn_mail"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="245dp"
+            android:src="@drawable/btn_mail"/>
+
+</RelativeLayout>

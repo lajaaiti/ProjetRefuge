@@ -3,17 +3,12 @@ package fr.sam.projetrefuge;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.view.View;
 
-public class Ajouter_pensionnaires extends AppCompatActivity {
-
-
+public class Liste_pensionnaires extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ajouter_pensionnaires);
-
-
+        setContentView(R.layout.activity_liste_pensionnaires);
     }
 }

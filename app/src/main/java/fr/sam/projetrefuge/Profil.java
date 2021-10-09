@@ -15,13 +15,13 @@ public class Profil extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profil);
 
-        modifier = (Button) findViewById(R.id.btn_modifier_profil)
+        modifier = (Button) findViewById(R.id.btn_modifier_profil);
 
                 modifier.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent intent = new Intent(Profil.this, Profil_bis.class);
-                        startActivity(intent);
+                        /*Intent intent = new Intent(Profil.this, Profil_bis.class);
+                        startActivity(intent);*/
                     }
                 });
     }

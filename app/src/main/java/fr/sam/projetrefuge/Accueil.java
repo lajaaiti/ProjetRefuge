@@ -5,14 +5,12 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class Accueil extends AppCompatActivity {
 
-    private ImageView btn_noe;
-    private ImageView btn_profil;
-    private ImageView btn_penssionnaires;
-    private ImageView btn_enclos;
-    private ImageView btn_contact;
+    private ImageView btn_noe,btn_profil, btn_penssionnaires, btn_enclos, btn_contact;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,7 +38,7 @@ public class Accueil extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(Accueil.this, Penssionnaires.class);
+               Intent intent = new Intent(Accueil.this, Penssionnaires.class);
                 startActivity(intent);
             }
 
@@ -49,8 +47,8 @@ public class Accueil extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(Accueil.this, Enclos.class);
-                startActivity(intent);
+               /* Intent intent = new Intent(Accueil.this, Enclos.class);
+                startActivity(intent);*/
             }
 
         });
@@ -58,8 +56,8 @@ public class Accueil extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(Accueil.this, Contacts.class);
-                startActivity(intent);
+                /*Intent intent = new Intent(Accueil.this, Contacts.class);
+                startActivity(intent);*/
             }
 
         });

@@ -8,13 +8,13 @@
 
 
     <ImageView
-        android:id="@+id/img_ajou_pensionnaires"
+        android:id="@+id/img_modifier_pensionnaires"
         android:layout_width="180dp"
         android:layout_height="170dp"
         android:src="@drawable/imgfond" />
 
     <EditText
-        android:id="@+id/nom_ajou_pensionnaires"
+        android:id="@+id/nom_modifier_pensionnaires"
         android:hint="Nom"
         android:layout_width="210dp"
         android:layout_height="45dp"
@@ -23,7 +23,7 @@
         android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/espece_ajou_pensionnaires"
+        android:id="@+id/espece_modifier_pensionnaires"
         android:hint="Espece"
         android:layout_width="210dp"
         android:layout_height="45dp"
@@ -32,16 +32,16 @@
         android:background="@drawable/champtext" />
 
     <EditText
-            android:id="@+id/sexe_ajou_pensionnaires"
-            android:hint="Sexe"
-            android:layout_width="210dp"
-            android:layout_height="45dp"
+        android:id="@+id/sexe_modifier_pensionnaires"
+        android:hint="Sexe"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
         android:layout_marginLeft="192dp"
         android:layout_marginTop="130dp"
-            android:background="@drawable/champtext" />
+        android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/num_enclo_ajou_pensionnaires"
+        android:id="@+id/num_enclo_modifier_pensionnaires"
         android:hint="N° Enclo"
         android:layout_width="190dp"
         android:layout_height="45dp"
@@ -49,7 +49,7 @@
         android:layout_marginTop="190dp"
         android:background="@drawable/champtext" />
     <EditText
-        android:id="@+id/age_ajou_pensionnaires"
+        android:id="@+id/age_modifier_pensionnaires"
         android:hint="Age"
         android:layout_width="190dp"
         android:layout_height="45dp"
@@ -58,7 +58,7 @@
         android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/vaccin_ajou_pensionnaires"
+        android:id="@+id/vaccin_modifier_pensionnaires"
         android:hint="Vaccin"
         android:layout_width="190dp"
         android:layout_height="45dp"
@@ -67,7 +67,7 @@
         android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/mail_ajou_pensionnaires"
+        android:id="@+id/mail_modifier_pensionnaires"
         android:hint="Mail"
         android:layout_width="390dp"
         android:layout_height="45dp"
@@ -76,7 +76,7 @@
         android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/prorietaire_ajou_pensionnaires"
+        android:id="@+id/prorietaire_modifier_pensionnaires"
         android:hint="proprietaire"
         android:layout_width="190dp"
         android:layout_height="45dp"
@@ -86,7 +86,7 @@
 
 
     <EditText
-        android:id="@+id/telephone_ajou_pensionnaires"
+        android:id="@+id/telephone_modifier_pensionnaires"
         android:hint="Telephone"
         android:layout_width="390dp"
         android:layout_height="45dp"
@@ -95,7 +95,7 @@
         android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/date_arrive_ajou_pensionnaires"
+        android:id="@+id/date_arrive_modifier_pensionnaires"
         android:hint="Date arrivé"
         android:layout_width="390dp"
         android:layout_height="45dp"
@@ -103,7 +103,7 @@
         android:layout_marginTop="415dp"
         android:background="@drawable/champtext" />
     <EditText
-        android:id="@+id/date_sortie_ajou_pensionnaires"
+        android:id="@+id/date_sortie_modifier_pensionnaires"
         android:hint="Date sortie"
         android:layout_width="390dp"
         android:layout_height="45dp"
@@ -112,7 +112,7 @@
         android:background="@drawable/champtext" />
 
     <EditText
-        android:id="@+id/commentaire_ajou_pensionnaires"
+        android:id="@+id/commentaire_modifier_pensionnaires"
         android:hint="Commentaire"
         android:layout_width="390dp"
         android:layout_height="75dp"
@@ -121,16 +121,23 @@
         android:background="@drawable/champtext" />
 
     <Button
-        android:id="@+id/btn_ajouter_toutou"
         android:layout_width="150dp"
         android:layout_height="55dp"
-        android:layout_marginLeft="120dp"
-        android:layout_marginTop="630dp"
         android:background="@drawable/btn"
-        android:text="Ajouter"
+        android:text="Modifier"
         android:textColor="@color/white"
-        android:textStyle="bold" />
-
+        android:textStyle="bold"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="630dp"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="55dp"
+        android:background="@drawable/btn"
+        android:text="Sortie"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="630dp"/>
 
 
 

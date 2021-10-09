@@ -87,6 +87,15 @@ public class CheckFields {
         return msg_password;
     }
 
+    public static String password_refuge_connexion(Users subs){
+        String msg_password ="";
+        String password = subs.getPassword();
+        if(password.isEmpty()){
+            msg_password = "Mot de passe requis.";
+        }
+        return msg_password;
+    }
+
 }
 
 

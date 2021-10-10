@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/btn.xml" value="0.1828125" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/champtext.xml" value="0.1828125" />
+        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/ic_baseline_send_24.xml" value="0.1828125" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/drawable/image.xml" value="0.1828125" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_accueil.xml" value="0.22" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_ajouter_pensionnaires.xml" value="0.22" />
@@ -14,6 +15,7 @@
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_enclos.xml" value="0.16666666666666666" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_inscription.xml" value="0.22" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_liste_pensionnaires.xml" value="0.22" />
+        <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_mail.xml" value="0.3333333333333333" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_modifier_pensionnaires.xml" value="0.16666666666666666" />
         <entry key="..\:/Desktop/sujet-long/ProjetRefuge/app/src/main/res/layout/activity_mot_de_pass_oublier.xml" value="0.14666666666666667" />

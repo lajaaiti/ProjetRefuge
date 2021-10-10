@@ -47,8 +47,8 @@ public class Accueil extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-               /* Intent intent = new Intent(Accueil.this, Enclos.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(Accueil.this, Enclos.class);
+                startActivity(intent);
             }
 
         });
@@ -56,8 +56,8 @@ public class Accueil extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                /*Intent intent = new Intent(Accueil.this, Contacts.class);
-                startActivity(intent);*/
+                Intent intent = new Intent(Accueil.this, Contacts.class);
+                startActivity(intent);
             }
 
         });

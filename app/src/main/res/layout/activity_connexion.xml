@@ -41,7 +41,8 @@
                 android:background="@color/gray"
                 android:ems="10"
                 android:hint="Mail"
-                android:inputType="textPersonName" />
+                android:inputType="textPersonName"
+                android:text="noe.nordest@mail.com" />
 
             <TextView
                 android:id="@+id/error_mail_connexion"
@@ -50,8 +51,6 @@
                 android:layout_marginLeft="70dp"
                 android:layout_marginTop="60dp"
                 android:textColor="#FF5722" />
-
-
 
 
             <EditText
@@ -63,7 +62,8 @@
                 android:background="@color/gray"
                 android:ems="10"
                 android:hint="Mot De Passe"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:text="Password57" />
 
             <TextView
                 android:id="@+id/error_password_connexion"

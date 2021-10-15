@@ -117,7 +117,7 @@ public class Inscription extends AppCompatActivity {
             public void volleyPost(Users subs) {
 
                 // postUrl qui reçois l'adresse du serveur et le nom du script à appeler.
-                //String postUrl = "https://192.168.43.244/testing/write.php";// connexion a xampp en local
+                //String postUrl = "https://192.168.43.244/testing/refugeandro.php";// connexion a xampp en local
                 String postUrl = "http://82.66.81.89/refuge.fr/refugeandro.php";// connexion a Wamp domicile laurent
                 RequestQueue requestQueue = Volley.newRequestQueue(Inscription.this);
                 // créer les paires clé valeur à stocker dans l'objet json.

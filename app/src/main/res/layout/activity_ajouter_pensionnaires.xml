@@ -7,132 +7,155 @@
     tools:context=".Ajouter_pensionnaires">
 
 
-    <ImageView
-        android:id="@+id/img_ajou_pensionnaires"
-        android:layout_width="180dp"
-        android:layout_height="170dp"
-        android:src="@drawable/imgfond" />
+
 
     <EditText
         android:id="@+id/nom_ajou_pensionnaires"
-        android:hint="Nom"
-        android:layout_width="210dp"
-        android:layout_height="45dp"
-        android:layout_marginLeft="192dp"
-        android:layout_marginTop="10dp"
-        android:background="@drawable/champtext" />
-
-    <EditText
-        android:id="@+id/espece_ajou_pensionnaires"
-        android:hint="Espece"
-        android:layout_width="210dp"
-        android:layout_height="45dp"
-        android:layout_marginLeft="192dp"
-        android:layout_marginTop="70dp"
-        android:background="@drawable/champtext" />
-
-    <EditText
-            android:id="@+id/sexe_ajou_pensionnaires"
-            android:hint="Sexe"
-            android:layout_width="210dp"
-            android:layout_height="45dp"
-        android:layout_marginLeft="192dp"
-        android:layout_marginTop="130dp"
-            android:background="@drawable/champtext" />
-
-    <EditText
-        android:id="@+id/num_enclo_ajou_pensionnaires"
-        android:hint="N° Enclo"
-        android:layout_width="190dp"
-        android:layout_height="45dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="190dp"
-        android:background="@drawable/champtext" />
-    <EditText
-        android:id="@+id/age_ajou_pensionnaires"
-        android:hint="Age"
         android:layout_width="190dp"
         android:layout_height="45dp"
         android:layout_marginLeft="210dp"
-        android:layout_marginTop="190dp"
-        android:background="@drawable/champtext" />
+        android:layout_marginTop="25dp"
+        android:background="@drawable/champtext"
+        android:hint="Nom"
+        android:text="miawww" />
+
+    <EditText
+        android:id="@+id/espece_ajou_pensionnaires"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/champtext"
+        android:hint="Espece"
+        android:text="chat" />
+
+    <EditText
+        android:id="@+id/sexe_ajou_pensionnaires"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/champtext"
+        android:hint="Sexe"
+        android:text="male" />
+
+    <EditText
+        android:id="@+id/num_enclo_ajou_pensionnaires"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/champtext"
+        android:hint="N° Enclo"
+        android:text="EC06" />
+
+    <EditText
+        android:id="@+id/age_ajou_pensionnaires"
+        android:layout_width="190dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/champtext"
+        android:hint="Age"
+        android:text="3" />
 
     <EditText
         android:id="@+id/vaccin_ajou_pensionnaires"
-        android:hint="Vaccin"
         android:layout_width="190dp"
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="250dp"
-        android:background="@drawable/champtext" />
+        android:background="@drawable/champtext"
+        android:hint="Vaccin"
+        android:text="oui" />
 
     <EditText
         android:id="@+id/mail_ajou_pensionnaires"
-        android:hint="Mail"
         android:layout_width="390dp"
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="305dp"
-        android:background="@drawable/champtext" />
+        android:background="@drawable/champtext"
+        android:hint="Mail"
+        android:text="albert@mail.com" />
 
     <EditText
         android:id="@+id/prorietaire_ajou_pensionnaires"
-        android:hint="proprietaire"
         android:layout_width="190dp"
         android:layout_height="45dp"
         android:layout_marginLeft="210dp"
         android:layout_marginTop="250dp"
-        android:background="@drawable/champtext" />
+        android:background="@drawable/champtext"
+        android:hint="proprietaire"
+        android:text="Albert" />
 
 
     <EditText
         android:id="@+id/telephone_ajou_pensionnaires"
-        android:hint="Telephone"
         android:layout_width="390dp"
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="360dp"
-        android:background="@drawable/champtext" />
+        android:background="@drawable/champtext"
+        android:hint="Telephone"
+        android:text="3216549874" />
 
     <EditText
         android:id="@+id/date_arrive_ajou_pensionnaires"
-        android:hint="Date arrivé"
-        android:layout_width="390dp"
+        android:layout_width="190dp"
         android:layout_height="45dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="415dp"
-        android:background="@drawable/champtext" />
+        android:background="@drawable/champtext"
+        android:hint="Date arrivé"
+        android:text="12-2-2021" />
+
     <EditText
         android:id="@+id/date_sortie_ajou_pensionnaires"
-        android:hint="Date sortie"
-        android:layout_width="390dp"
+        android:layout_width="190dp"
         android:layout_height="45dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="470dp"
-        android:background="@drawable/champtext" />
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="415dp"
+        android:background="@drawable/champtext"
+        android:hint="Date sortie"
+        android:text="20-02-2021" />
 
     <EditText
         android:id="@+id/commentaire_ajou_pensionnaires"
-        android:hint="Commentaire"
         android:layout_width="390dp"
-        android:layout_height="75dp"
+        android:layout_height="145dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="525dp"
-        android:background="@drawable/champtext" />
+        android:layout_marginTop="475dp"
+        android:background="@drawable/champtext"
+        android:hint="Commentaire"
+        android:text="Miaawww ???" />
 
     <Button
         android:id="@+id/btn_ajouter_toutou"
         android:layout_width="150dp"
         android:layout_height="55dp"
-        android:layout_marginLeft="120dp"
+        android:layout_marginLeft="130dp"
         android:layout_marginTop="630dp"
         android:background="@drawable/btn"
         android:text="Ajouter"
         android:textColor="@color/white"
         android:textStyle="bold" />
 
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="190dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:keepScreenOn="true" />
 
-
-
+    <Button
+        android:id="@+id/btn_ajou_photo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="140dp"
+        android:text="photo" />
 
 </RelativeLayout>

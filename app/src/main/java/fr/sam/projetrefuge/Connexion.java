@@ -89,7 +89,9 @@ public class Connexion extends AppCompatActivity {
             public void volleyPost(Users subs) {
 
                 // postUrl qui reçois l'adresse du serveur et le nom du script à appeler.
-                String postUrl = "http://82.66.81.89/refuge.fr/refugeandro.php";// connexion a xampp en local
+                String postUrl = "http://82.66.81.89/refuge.fr/refugeandro.php";// connexion à wamp à distance
+                //String postUrl = "https://192.168.43.244/testing/refugeandro.php";// connexion a xampp en local
+
 
 
                 RequestQueue requestQueue = Volley.newRequestQueue(Connexion.this);
